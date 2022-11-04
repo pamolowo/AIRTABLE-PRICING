@@ -1,0 +1,97 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+.card{
+    margin:  auto;
+    background-color: lightblue;
+    width: 400px;
+    height: 850px;
+    border-radius: 20px;
+    
+}
+.head{
+    background: rgb(17, 45, 206);
+    width: 400px;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    
+}
+.head h3{
+    padding: 10px 0px 17px 17px;
+}
+.section{
+    padding-left: 17px ;
+    height: 100px;
+}
+.para p{
+    padding-top: 100px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    padding-top: 20px;
+}
+.container h1{
+    display: flex;
+    font-weight: bold;
+    font-size: 50px;
+}
+.container p{
+    padding-top: 25px;
+}
+.btn{
+    padding-left: 50px;
+    padding-top: 30px;
+    
+}
+button{
+
+    border-radius: 50px;
+    background: rgb(17, 45, 206);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+
+}
+button:hover{
+    background: red;
+}
+.content{
+    padding-left: 17px;
+}
+.content p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.list{
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+}
+span{
+    border-bottom: rgb(227, 220, 220) 2px dotted;
+}
+.listrow{
+    display: flex;
+    line-height: 20px;
+    height: 30px;
+}
+.listrow i{
+    width: 25px;
+}
+#footer{
+    padding-top: 40px;
+    color: rgb(158, 164, 164);
+    font-size: small;
+}
